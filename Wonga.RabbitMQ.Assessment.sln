@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{2939DB8B-FED
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F0A2AE40-9554-4A86-9F77-72D1E44EF257}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wonga.RabbitMQ.IoC", "Wonga.RabbitMQ.IoC\Wonga.RabbitMQ.IoC.csproj", "{1BA421D7-1F3E-4BAB-BFC8-B9FAB58F7E3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +29,16 @@ Global
 		{62AA94B1-AB9D-4E59-B7C5-3BF6759534DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62AA94B1-AB9D-4E59-B7C5-3BF6759534DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62AA94B1-AB9D-4E59-B7C5-3BF6759534DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA421D7-1F3E-4BAB-BFC8-B9FAB58F7E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA421D7-1F3E-4BAB-BFC8-B9FAB58F7E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA421D7-1F3E-4BAB-BFC8-B9FAB58F7E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA421D7-1F3E-4BAB-BFC8-B9FAB58F7E3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BA421D7-1F3E-4BAB-BFC8-B9FAB58F7E3C} = {2939DB8B-FED4-4ACC-A428-F971B0ACBC96}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DCE2F452-698D-4216-8098-B7DDD310185E}

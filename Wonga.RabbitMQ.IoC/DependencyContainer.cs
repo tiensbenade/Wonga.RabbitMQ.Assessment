@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Wonga.Infrastructure.Bus;
+using Wonga.RabbitMQ.Domain.Core.Bus;
 
 namespace Wonga.RabbitMQ.IoC
 {
@@ -9,7 +11,7 @@ namespace Wonga.RabbitMQ.IoC
     {
         public static void RegisterServices(IServiceCollection services)
         {
-
+            services.AddTransient<IEventBus, RabbitMQBus>();
         }
     }
 }

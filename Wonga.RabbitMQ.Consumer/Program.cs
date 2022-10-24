@@ -9,6 +9,7 @@ namespace Wonga.RabbitMQ.Consumer
     {
         static void Main(string[] args)
         {
+            RabbitMQ.Consumer.
             var factory = new ConnectionFactory()
             {
                 HostName = "localhost"

@@ -13,7 +13,7 @@ using Wonga.RabbitMQ.Domain.Core.Events;
 
 namespace Wonga.Infrastructure.Bus
 {
-    public sealed class RabbitMQBus : IEventBus
+    public class RabbitMQBus : IEventBus
     {
         private readonly IMediator _mediator;
         private readonly Dictionary<string, List<Type>> _handlers;
